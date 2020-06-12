@@ -187,7 +187,7 @@ class ArtistForm(FlaskForm):
         ]
     )
     phone = StringField(
-        # TODO implement validation logic for state
+       
         'phone'
     )
     image_link = StringField(
@@ -219,7 +219,7 @@ class ArtistForm(FlaskForm):
         ]
     )
     facebook_link = StringField(
-        # TODO implement enum restriction
+       
         'facebook_link', validators=[URL(), Optional()]
     )
     website = StringField(
